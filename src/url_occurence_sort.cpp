@@ -11,6 +11,8 @@ urlOccurenceSort::urlOccurenceSort(std::string inputFilePath, std::string tempFi
 {
     mInputFilePath = inputFilePath;
     mTempFilePrefix = tempFilePrefix;
+    LOG(INFO) << "the input file path is " << mInputFilePath << " temp file prefix is " << mTempFilePrefix;
+    LOG(INFO) << "urlOccurenceSort object init success";
 }
 
 urlOccurenceSort::~urlOccurenceSort()
