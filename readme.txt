@@ -7,6 +7,7 @@ urlOccurenceSort类提供了对大文件，使用小的内存计算出现次数t
 
 编译方法：
 运行项目根目录下的build.sh
+会在lib下生成静态库liboccurence_sort.a， 然后结合include目录下url_occurence_sort.h使用该类
 
 测试方法：
 在unittest目录下，运行run_test.sh
